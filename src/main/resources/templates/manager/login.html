@@ -41,14 +41,14 @@
             var $ = layui.jquery;
             form.on('submit(login)',function (data) {
                 $.ajax({
-                    url:'/manager/login',
+                    url:'/trump/login',
                     data:data.field,
                     dataType:'json',
                     type:'post',
                     success:function (data) {
                         if (data.success){
                             layer.msg(data.message,{time:700},function() {
-                                window.location.href = "/manager/index";
+                                window.location.href = "/trump/index";
                             })
                         }else{
                             layer.msg(data.message,{time:700},function() {

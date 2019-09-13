@@ -23,7 +23,7 @@ import java.util.List;
  * @modified By：
  */
 @Controller
-@RequestMapping("/manager")
+@RequestMapping("/trump")
 public class ManagerController {
     @Autowired
     private AjaxResult ajaxResult;

@@ -36,7 +36,7 @@
             </div>
             <div class="layui-tab" lay-unauto lay-allowClose="true" lay-filter="layadmin-layout-tabs">
                 <ul class="layui-tab-title" id="LAY_app_tabsheader">
-                    <li lay-id="home/console.html" lay-attr="/manager/console" class="layui-this"><i class="layui-icon layui-icon-home"></i></li>
+                    <li lay-id="home/console.html" lay-attr="/trump/console" class="layui-this"><i class="layui-icon layui-icon-home"></i></li>
                 </ul>
             </div>
         </div>
@@ -45,7 +45,7 @@
         <!-- 主体内容 -->
         <div class="layui-body" id="LAY_app_body">
             <div class="layadmin-tabsbody-item layui-show">
-                <iframe th:src="@{/manager/console}" frameborder="0" class="layadmin-iframe"></iframe>
+                <iframe th:src="@{/trump/console}" frameborder="0" class="layadmin-iframe"></iframe>
             </div>
         </div>
 
@@ -68,7 +68,7 @@
         var element = layui.element;
         $(function () {
             $.ajax({
-                url:'/manager/treeMenu',
+                url:'/trump/treeMenu',
                 dataType:'json',
                 type:'post',
                 success:function(data){
@@ -100,7 +100,7 @@
 
             if(obj.children!=null && obj.children.length>0){
                 $.each(obj.children,function(i,note){
-                    if(note.url == "/manager/index"){
+                    if(note.url == "/trump/index"){
                         content+='<dd>';
                         content+='<a style="margin-left: 21px" href="'+ note.url+'">'+note.name+'</a>';
                     }else{

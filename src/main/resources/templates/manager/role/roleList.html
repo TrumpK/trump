@@ -56,7 +56,7 @@
             table.render({
                 elem: '#table',
                 height: 450,
-                url: '/manager/roleList', //数据接口
+                url: '/trump/roleList', //数据接口
                 title: '用户列表',
                 page: true,
                 limit: 5,
@@ -134,7 +134,7 @@
                 var jsonObj = {};
                 jsonObj["ids[0]"] = data.id;
                 $.ajax({
-                    url:'/manager/delRole',
+                    url:'/trump/delRole',
                     data:jsonObj,
                     dataType:'json',
                     type:'post',
@@ -155,7 +155,7 @@
                     title: '分配权限',
                     skin: 'layui-layer-demo', //加上边框
                     area: ['700px', '450px'], //宽高
-                    content: '/manager/allotPer?id='+data.id
+                    content: '/trump/allotPer?id='+data.id
                 });
             }
 

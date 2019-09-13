@@ -25,7 +25,7 @@ import java.util.List;
  * @modified By：
  */
 @Controller
-@RequestMapping("/manager")
+@RequestMapping("/trump")
 public class DispatherController {
     @Autowired
     private AjaxResult ajaxResult;

@@ -26,7 +26,7 @@ import java.util.List;
  * @modified By：
  */
 @Controller
-@RequestMapping("/manager")
+@RequestMapping("/trump")
 public class PermissionController {
     @Autowired
     private AjaxResult ajaxResult;

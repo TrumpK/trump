@@ -63,7 +63,7 @@
         table.render({
             elem: '#table',
             height: 450,
-            url: '/manager/logList', //数据接口
+            url: '/trump/logList', //数据接口
             title: '日志列表',
             page: true,
             limit: 20,
@@ -111,7 +111,7 @@
                             jsonObj["ids["+i+"]"] = checkAll.data[i].id;
                         }
                         $.ajax({
-                            url:'/manager/delLog',
+                            url:'/trump/delLog',
                             data:jsonObj,
                             dataType:'json',
                             type:'post',

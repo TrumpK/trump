@@ -22,7 +22,7 @@ import java.util.Map;
  * @modified By：
  */
 @Controller
-@RequestMapping("/manager")
+@RequestMapping("/trump")
 public class RoleController {
     @Autowired
     private AjaxResult ajaxResult;

@@ -51,7 +51,7 @@
             treeDefaultClose: true,   // treetable新增参数
             treeLinkage: true,        // treetable新增参数
             elem: '#table1',
-            url: '/manager/permissionList',
+            url: '/trump/permissionList',
             cols: [
                 [
                     {type: 'numbers'},
@@ -75,7 +75,7 @@
                     title: '修改权限',
                     skin: 'layui-layer-demo', //加上边框
                     area: ['500px', '450px'], //宽高
-                    content: '/manager/addPermission?type=edit&id='+data.id
+                    content: '/trump/addPermission?type=edit&id='+data.id
                 });
             }else if(layEvent === 'add'){
                 if(data.pid == -1){
@@ -84,7 +84,7 @@
                         title: '添加权限',
                         skin: 'layui-layer-demo', //加上边框
                         area: ['500px', '450px'], //宽高
-                        content: '/manager/addPermission?type=add&id='+data.id
+                        content: '/trump/addPermission?type=add&id='+data.id
                     });
                 }else{
                     layer.msg("只能创建二级目录");
@@ -96,7 +96,7 @@
             var jsonObj = {};
             jsonObj["ids[0]"] = data.id;
             $.ajax({
-                url:'/manager/delPermission',
+                url:'/trump/delPermission',
                 data:jsonObj,
                 dataType:'json',
                 type:'post',
@@ -118,7 +118,7 @@
                     title: '添加权限',
                     skin: 'layui-layer-demo', //加上边框
                     area: ['500px', '450px'], //宽高
-                    content: '/manager/addPermission?type=addParent'
+                    content: '/trump/addPermission?type=addParent'
                 });
             }
         }

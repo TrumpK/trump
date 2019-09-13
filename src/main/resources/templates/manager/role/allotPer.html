@@ -49,7 +49,7 @@
             treeDefaultClose: true,   // treetable新增参数
             treeLinkage: true,        // treetable新增参数
             elem: '#table1',
-            url: '/manager/permissionList?id='+[[${id}]],
+            url: '/trump/permissionList?id='+[[${id}]],
             cols: [
                 [
                     {type: 'checkbox', fixed: 'left'},
@@ -85,7 +85,7 @@
                 }
                 jsonObj["id"] = [[${id}]];
                 $.ajax({
-                    url:'/manager/allotPer',
+                    url:'/trump/allotPer',
                     data:jsonObj,
                     dataType:'json',
                     type:'post',

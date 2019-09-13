@@ -20,7 +20,7 @@ import java.util.Map;
  * @modified By：
  */
 @Controller
-@RequestMapping("/manager")
+@RequestMapping("/trump")
 public class AdminController {
     @Autowired
     private AjaxResult ajaxResult;
