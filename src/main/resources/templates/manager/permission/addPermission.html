@@ -50,6 +50,7 @@
         var form = layui.form;
         var $ = layui.jquery;
         form.on('submit(addpermission)',function (data) {
+            console.log(data);
             $.ajax({
                 url:'/trump/addPermission',
                 data:data.field,

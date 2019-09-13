@@ -21,11 +21,19 @@ public class MvcConfig implements WebMvcConfigurer {
         return new LogInterceptor(); // 注入spring
     }
 
+    /**
+     * 静态文件路径
+     * @param registry
+     */
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/static/**").addResourceLocations("classpath:/static/");
     }
 
+    /**
+     * 页面拦截
+     * @param registry
+     */
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(new LoginInterceptor()).addPathPatterns("/manager/**")

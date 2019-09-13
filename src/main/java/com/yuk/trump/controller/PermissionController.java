@@ -106,10 +106,11 @@ public class PermissionController {
     @ResponseBody
     public AjaxResult submitAddPermission(TreeMenu treeMenu){
         TreeMenu byName = treeMenuService.selectByName(treeMenu.getName());
-        TreeMenu byUrl = treeMenuService.selectByUrl(treeMenu.getUrl());
+        TreeMenu byUrl = null;
 
         if(treeMenu.getId() !=null){
             //修改
+            byUrl = treeMenuService.selectByUrl(treeMenu.getUrl());
             if(byName != null && !byName.getId().equals(treeMenu.getId())){
                 ajaxResult.ajaxFalse("权限名已存在");
                 return ajaxResult;
@@ -126,6 +127,10 @@ public class PermissionController {
             }
         }else{
             //添加
+            if (treeMenu.getUrl() != null && treeMenu.getUrl() != ""){
+                byUrl = treeMenuService.selectByUrl(treeMenu.getUrl());
+            }
+
             if(byName != null){
                 ajaxResult.ajaxFalse("权限名已存在");
                 return ajaxResult;

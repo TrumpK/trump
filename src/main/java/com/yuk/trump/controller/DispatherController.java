@@ -21,7 +21,7 @@ import java.util.List;
 /**
  * @author ：TrumpK
  * @date ：Created in 2019/9/13 13:01
- * @description：DispatherController
+ * @description：调度控制器
  * @modified By：
  */
 @Controller
@@ -45,7 +45,7 @@ public class DispatherController {
     }
 
     /**
-     * 表单提交登录
+     * 表单提交登录，直接使用Admin entity对象接收，登入成功后将用户保存到session中
      * @param admin
      * @return
      */

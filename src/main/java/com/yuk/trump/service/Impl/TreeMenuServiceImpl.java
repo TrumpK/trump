@@ -29,7 +29,7 @@ public class TreeMenuServiceImpl implements TreeMenuService {
         List<TreeMenu> root = new ArrayList<>();
         //遍历所有菜单集合,如果是主菜单的话直接放入root集合
         for(TreeMenu treeMenu : treeMenuList){
-            //pid为0,则为父(主)菜单
+            //pid为-1,则为父(主)菜单
             if(treeMenu.getPid() == -1){
                 root.add(treeMenu);
             }
