@@ -81,3 +81,32 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'se
 2019/09/14-12:46 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 4.915 seconds (JVM running for 6.949)
 2019/09/14-12:46 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.199.232:8081/
 2019/09/14-12:46 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\Yukai
+2019/09/14-15:30 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-U20N43D with PID 9188 (C:\Users\Yukai\Desktop\study\yuk\git\trump\target\classes started by Yukai in C:\Users\Yukai\Desktop\study\yuk\git\trump)
+2019/09/14-15:30 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/14-15:30 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
+2019/09/14-15:30 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/14-15:30 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/14-15:30 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/14-15:30 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3463 ms
+2019/09/14-15:30 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/14-15:30 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
+2019/09/14-15:30 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 6.181 seconds (JVM running for 8.094)
+2019/09/14-15:30 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.199.232:8081/
+2019/09/14-15:30 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\Yukai
+2019/09/14-16:12 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-U20N43D with PID 12308 (C:\Users\Yukai\Desktop\study\yuk\git\trump\target\classes started by Yukai in C:\Users\Yukai\Desktop\study\yuk\git\trump)
+2019/09/14-16:12 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/14-16:12 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
+2019/09/14-16:12 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/14-16:12 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/14-16:12 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/14-16:12 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3167 ms
+2019/09/14-16:12 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/14-16:12 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
+2019/09/14-16:12 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 5.503 seconds (JVM running for 7.408)
+2019/09/14-16:12 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.199.232:8081/
+2019/09/14-16:12 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\Yukai
+2019/09/14-16:13 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/09/14-16:13 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/09/14-16:13 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 13 ms
+2019/09/14-16:13 [http-nio-8081-exec-10] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+2019/09/14-16:13 [http-nio-8081-exec-10] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
