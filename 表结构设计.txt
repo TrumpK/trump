@@ -1,0 +1,16 @@
+消费记录表 consume 
+	字段中文名				字段名 				字段类型 				字段长度
+	ID 						id 					int increment
+	用户ID 					admin_id 			int
+	时间 					useTime 			datetime
+	金额 					money 				float
+	支付方式 				payWay 				varchar					20
+	地点 					place 				varchar					200
+	相关人物 				person 				varchar					200
+	备注说明 				mark 				varchar					2000
+
+
+支付方式表 payWay
+	中文名					字段名 				字段类型 				字段长度
+	ID 						id   				int increment
+	方式名 					payName 			varchar 				50

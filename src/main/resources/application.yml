@@ -1,3 +1,6 @@
+server:
+  port: 8081
+
 spring:
   thymeleaf:
     cache: false
@@ -11,3 +14,11 @@ spring:
 mybatis:
   type-aliases-package: com.yuk.trump.entity
   mapper-locations: classpath:mapper/*.xml
+
+#日志级别  TARCE < DEBUG < INFO < WARN < ERROR < FATAL
+logging:
+  path: /Users/Yukai/Desktop/study/yuk/git/trump/
+  file: trump.log
+  pattern:
+    console: "%d{yyyy/MM/dd-HH:mm:ss} [%thread] %-5level %logger- %msg%n"
+    file: "%d{yyyy/MM/dd-HH:mm} [%thread] %-5level %logger- %msg%n"

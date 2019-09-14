@@ -1,0 +1,83 @@
+2019/09/14-12:12 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-U20N43D with PID 8148 (C:\Users\Yukai\Desktop\study\yuk\git\trump\target\classes started by Yukai in C:\Users\Yukai\Desktop\study\yuk\git\trump)
+2019/09/14-12:12 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/14-12:12 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8080 (http)
+2019/09/14-12:12 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/14-12:12 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/14-12:12 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/14-12:12 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3747 ms
+2019/09/14-12:12 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'server.port' in value "${server.port}"
+2019/09/14-12:12 [main] INFO  org.apache.catalina.core.StandardService- Stopping service [Tomcat]
+2019/09/14-12:12 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019/09/14-12:12 [main] ERROR org.springframework.boot.SpringApplication- Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'logConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'server.port' in value "${server.port}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$112/1301352406.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.yuk.trump.TrumpApplication.main(TrumpApplication.java:14)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'server.port' in value "${server.port}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$$Lambda$195/261650860.resolveStringValue(Unknown Source)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	... 18 common frames omitted
+2019/09/14-12:12 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-U20N43D with PID 7252 (C:\Users\Yukai\Desktop\study\yuk\git\trump\target\classes started by Yukai in C:\Users\Yukai\Desktop\study\yuk\git\trump)
+2019/09/14-12:12 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/14-12:12 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
+2019/09/14-12:12 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/14-12:12 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/14-12:12 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/14-12:12 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3518 ms
+2019/09/14-12:12 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/14-12:12 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
+2019/09/14-12:12 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 6.634 seconds (JVM running for 8.667)
+2019/09/14-12:12 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.199.232:8081/
+2019/09/14-12:12 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\Yukai
+2019/09/14-12:13 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-U20N43D with PID 7312 (C:\Users\Yukai\Desktop\study\yuk\git\trump\target\classes started by Yukai in C:\Users\Yukai\Desktop\study\yuk\git\trump)
+2019/09/14-12:13 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/14-12:13 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
+2019/09/14-12:13 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/14-12:13 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/14-12:13 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/14-12:13 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3190 ms
+2019/09/14-12:13 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/14-12:13 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
+2019/09/14-12:13 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 6.064 seconds (JVM running for 8.005)
+2019/09/14-12:13 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.199.232:8081/
+2019/09/14-12:13 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\Yukai
+2019/09/14-12:46 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-U20N43D with PID 1644 (C:\Users\Yukai\Desktop\study\yuk\git\trump\target\classes started by Yukai in C:\Users\Yukai\Desktop\study\yuk\git\trump)
+2019/09/14-12:46 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/14-12:46 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
+2019/09/14-12:46 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/14-12:46 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/14-12:46 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/14-12:46 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 2672 ms
+2019/09/14-12:46 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/14-12:46 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
+2019/09/14-12:46 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 4.915 seconds (JVM running for 6.949)
+2019/09/14-12:46 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.199.232:8081/
+2019/09/14-12:46 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\Yukai

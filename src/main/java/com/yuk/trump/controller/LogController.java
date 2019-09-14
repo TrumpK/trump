@@ -16,7 +16,7 @@ import java.util.Map;
 /**
  * @author ：TrumpK
  * @date ：Created in 2019/9/13 13:02
- * @description：LogController
+ * @description：日志相关内容
  * @modified By：
  */
 @Controller

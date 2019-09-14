@@ -132,6 +132,12 @@ public class DispatherController {
         return ajaxResult;
     }
 
+    /**
+     * 查询个人信息
+     * @param session
+     * @param model
+     * @return
+     */
     @GetMapping("/info")
     public String info(HttpSession session, Model model){
         Admin admin = (Admin) session.getAttribute(Const.ADMIN);
@@ -140,6 +146,12 @@ public class DispatherController {
         return "manager/common/info";
     }
 
+    /**
+     * 编辑个人信息
+     * @param admin
+     * @param session
+     * @return
+     */
     @PostMapping("/editInfo")
     @ResponseBody
     public AjaxResult editInfo(Admin admin,HttpSession session){

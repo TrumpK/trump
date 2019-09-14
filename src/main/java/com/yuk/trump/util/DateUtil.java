@@ -12,7 +12,7 @@ import java.util.Date;
  */
 public class DateUtil {
     /**
-     * 日期装字符串
+     * 日期转字符串
      * @return
      */
     public static String getStringDate(String type){
@@ -22,6 +22,12 @@ public class DateUtil {
         return format;
     }
 
+    /**
+     * 日期字符串转日期
+     * @param type
+     * @return
+     * @throws ParseException
+     */
     public static Date getDate(String type) throws ParseException {
         Date date = new Date();
         SimpleDateFormat dFormat = new SimpleDateFormat(type); //HH表示24小时制；
