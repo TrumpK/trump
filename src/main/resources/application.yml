@@ -6,7 +6,7 @@ spring:
     cache: false
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/trump_test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    url: jdbc:mysql://47.102.97.91:3306/trump_test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: "root"
     password: "076173"
 
@@ -17,7 +17,7 @@ mybatis:
 
 #日志级别  TARCE < DEBUG < INFO < WARN < ERROR < FATAL
 logging:
-  path: /Users/Yukai/Desktop/study/yuk/git/trump/
+  path: /Users/ZhixiangWang/IdeaProjects/trump_Wangzhixiang/trump/
   file: trump.log
   pattern:
     console: "%d{yyyy/MM/dd-HH:mm:ss} [%thread] %-5level %logger- %msg%n"

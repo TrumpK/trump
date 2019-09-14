@@ -81,3 +81,45 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'se
 2019/09/14-12:46 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 4.915 seconds (JVM running for 6.949)
 2019/09/14-12:46 [main] INFO  com.yuk.trump.config.LogConfig- 鍚姩鎴愬姛锛歨ttp://192.168.199.232:8081/
 2019/09/14-12:46 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} 锛欳:\Users\Yukai
+2019/09/14-16:04 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-QHOJ3CM with PID 13048 (D:\Users\ZhixiangWang\IdeaProjects\trump_Wangzhixiang\trump\target\classes started by ZhixiangWang in D:\Users\ZhixiangWang\IdeaProjects\trump_Wangzhixiang\trump)
+2019/09/14-16:04 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/14-16:04 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
+2019/09/14-16:04 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/14-16:04 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/14-16:04 [main] INFO  org.apache.catalina.core.AprLifecycleListener- An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019/09/14-16:04 [main] INFO  org.apache.catalina.core.AprLifecycleListener- Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019/09/14-16:04 [main] INFO  org.apache.catalina.core.AprLifecycleListener- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019/09/14-16:04 [main] INFO  org.apache.catalina.core.AprLifecycleListener- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019/09/14-16:04 [main] INFO  org.apache.catalina.core.AprLifecycleListener- OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019/09/14-16:04 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/14-16:04 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 6300 ms
+2019/09/14-16:04 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/14-16:04 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
+2019/09/14-16:04 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 9.751 seconds (JVM running for 13.185)
+2019/09/14-16:04 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.0.103:8081/
+2019/09/14-16:04 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\ZhixiangWang
+2019/09/14-16:07 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/09/14-16:07 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/09/14-16:07 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 16 ms
+2019/09/14-16:14 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-QHOJ3CM with PID 3036 (D:\Users\ZhixiangWang\IdeaProjects\trump_Wangzhixiang\trump\target\classes started by ZhixiangWang in D:\Users\ZhixiangWang\IdeaProjects\trump_Wangzhixiang\trump)
+2019/09/14-16:14 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/14-16:14 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
+2019/09/14-16:14 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/14-16:14 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/14-16:14 [main] INFO  org.apache.catalina.core.AprLifecycleListener- An older version [1.2.21] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2019/09/14-16:14 [main] INFO  org.apache.catalina.core.AprLifecycleListener- Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+2019/09/14-16:14 [main] INFO  org.apache.catalina.core.AprLifecycleListener- APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019/09/14-16:14 [main] INFO  org.apache.catalina.core.AprLifecycleListener- APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019/09/14-16:14 [main] INFO  org.apache.catalina.core.AprLifecycleListener- OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+2019/09/14-16:14 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/14-16:14 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3419 ms
+2019/09/14-16:14 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/14-16:14 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
+2019/09/14-16:14 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 6.135 seconds (JVM running for 8.018)
+2019/09/14-16:14 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.0.103:8081/
+2019/09/14-16:14 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\ZhixiangWang
+2019/09/14-16:14 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/09/14-16:14 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/09/14-16:14 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 29 ms
+2019/09/14-16:17 [http-nio-8081-exec-9] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+2019/09/14-16:17 [http-nio-8081-exec-9] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
