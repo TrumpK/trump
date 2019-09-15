@@ -52,7 +52,8 @@ public class RedisService {
             }
             //生成真正的key
             String realKey  = prefix.getPrefix() + key;
-            int seconds =  prefix.expireSeconds();
+//            int seconds =  prefix.expireSeconds();
+            int seconds = 60*10;
             if(seconds <= 0) {
                 jedis.set(realKey, str);
             }else {

@@ -465,3 +465,38 @@ java.lang.NullPointerException: null
 2019/09/15-12:57 [Thread-16] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
 2019/09/15-12:57 [Thread-16] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown initiated...
 2019/09/15-12:57 [Thread-16] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown completed.
+2019/09/15-13:03 [main] INFO  com.yuk.trump.TrumpApplicationTests- Starting TrumpApplicationTests on DESKTOP-U20N43D with PID 14712 (started by Yukai in C:\Users\Yukai\Desktop\study\yuk\git\trump)
+2019/09/15-13:03 [main] INFO  com.yuk.trump.TrumpApplicationTests- No active profile set, falling back to default profiles: default
+2019/09/15-13:03 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/09/15-13:03 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/09/15-13:03 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 100ms. Found 0 repository interfaces.
+2019/09/15-13:03 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b0100269] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/09/15-13:03 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/15-13:03 [main] INFO  com.yuk.trump.TrumpApplicationTests- Started TrumpApplicationTests in 11.321 seconds (JVM running for 13.193)
+2019/09/15-13:03 [main] INFO  com.yuk.trump.config.LogConfig- ∆Ù∂Ø≥…π¶£∫http://192.168.199.232:-1/
+2019/09/15-13:03 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} £∫C:\Users\Yukai
+2019/09/15-13:03 [Thread-2] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/09/15-14:41 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-U20N43D with PID 10200 (C:\Users\Yukai\Desktop\study\yuk\git\trump\target\classes started by Yukai in C:\Users\Yukai\Desktop\study\yuk\git\trump)
+2019/09/15-14:41 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/15-14:41 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/09/15-14:41 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/09/15-14:41 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 84ms. Found 0 repository interfaces.
+2019/09/15-14:41 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$35de1991] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/09/15-14:42 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
+2019/09/15-14:42 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/15-14:42 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/15-14:42 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/15-14:42 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 5778 ms
+2019/09/15-14:42 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/15-14:42 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
+2019/09/15-14:42 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 12.164 seconds (JVM running for 16.646)
+2019/09/15-14:42 [main] INFO  com.yuk.trump.config.LogConfig- ÂêØÂä®ÊàêÂäüÔºöhttp://192.168.199.232:8081/
+2019/09/15-14:42 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ÔºöC:\Users\Yukai
+2019/09/15-14:42 [http-nio-8081-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/09/15-14:42 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/09/15-14:42 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 16 ms
+2019/09/15-14:42 [http-nio-8081-exec-3] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+2019/09/15-14:42 [http-nio-8081-exec-3] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+2019/09/15-14:43 [Thread-22] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/09/15-14:43 [Thread-22] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown initiated...
+2019/09/15-14:43 [Thread-22] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Shutdown completed.
