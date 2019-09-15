@@ -15,6 +15,8 @@ public interface AdminService {
 
     Admin login(String username, String password);
 
+    boolean logout(Integer userId);
+
     PageBean<Admin> queryPage(Map<String, Object> paramMap);
 
     int insertAdmin(Admin admin);
@@ -28,4 +30,20 @@ public interface AdminService {
     Admin selectByName(String username);
 
     Admin selectByEmail(String email);
+
+    /**
+     * 获取token
+     * @param userId
+     * @return
+     * @throws Exception
+     */
+    String getToken(Integer id) throws Exception;
+
+    /**
+     * 校验Token
+     * @param token
+     * @return
+     * @throws Exception
+     */
+    String checkToken(String token) throws Exception;
 }

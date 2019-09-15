@@ -11,14 +11,25 @@ spring:
     password: "076173"
 
 
+
 mybatis:
   type-aliases-package: com.yuk.trump.entity
   mapper-locations: classpath:mapper/*.xml
 
 #日志级别  TARCE < DEBUG < INFO < WARN < ERROR < FATAL
 logging:
-  path: /Users/ZhixiangWang/IdeaProjects/trump_Wangzhixiang/trump/
+  path: /Users/85850/Desktop/trump/
   file: trump.log
   pattern:
     console: "%d{yyyy/MM/dd-HH:mm:ss} [%thread] %-5level %logger- %msg%n"
     file: "%d{yyyy/MM/dd-HH:mm} [%thread] %-5level %logger- %msg%n"
+
+
+redis:
+  host: 47.102.97.91
+  port: 6379
+  timeout: 10
+  password: "076173"
+  poolMaxTotal: 1000
+  poolMaxIdle: 500
+  poolMaxWait: 500
