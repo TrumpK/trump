@@ -7,20 +7,20 @@ package com.yuk.trump.entity;
  * @modified By：
  */
 public class Consume {
-    private int id;
+    private Long id;
     private int admin_id;
     private String useTime;
-    private float money;
-    private String payWay;
+    private double money;
+    private byte payWay;
     private String place;
     private String person;
     private String mark;
 
-    public int getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
@@ -40,19 +40,19 @@ public class Consume {
         this.useTime = useTime;
     }
 
-    public float getMoney() {
+    public double getMoney() {
         return money;
     }
 
-    public void setMoney(float money) {
+    public void setMoney(double money) {
         this.money = money;
     }
 
-    public String getPayWay() {
+    public byte getPayWay() {
         return payWay;
     }
 
-    public void setPayWay(String payWay) {
+    public void setPayWay(byte payWay) {
         this.payWay = payWay;
     }
 

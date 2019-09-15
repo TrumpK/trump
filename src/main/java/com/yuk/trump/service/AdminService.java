@@ -22,8 +22,8 @@ public interface AdminService {
     int insertAdmin(Admin admin);
 
     Admin selectById(Integer id);
-
     int delByAdminIds(List<Integer> ids);
+
 
     int editByAdmin(Admin admin);
 
