@@ -1,21 +1,38 @@
 消费记录表 consume 
-	字段中文名				字段名 				字段类型 				字段长度
-	ID 						id 					int increment
-	用户ID 					admin_id 			int
-	时间 					useTime 			datetime
-	金额 					money 				float
-	支付方式 				payWay 				varchar					20
+	字段中文名				字段名 				字段类型 				字段长度            是否必须
+	ID 						id 					int increment                                  y
+	用户ID 					admin_id 			int                                            y
+	时间 					useTime 			datetime                                       y
+	金额 					money 				float                                          y
+	支付方式 				payWay 				varchar					20                     y
 	地点 					place 				varchar					200
 	相关人物 				person 				varchar					200
 	备注说明 				mark 				varchar					2000
 
 
 支付方式表 payWay
-	中文名					字段名 				字段类型 				字段长度
-	ID 						id   				int increment
-	方式名 					payName 			varchar 				50
+	中文名					字段名 				字段类型 				字段长度            是否必须
+	ID 						id   				int increment                                  y
+	方式名 					payName 			varchar 				50                     y
 
 
+
+个人图库 photo
+    字段中文名				字段名 				字段类型 				字段长度            是否必须
+    ID 						id 					int increment                                  y
+    用户ID 					admin_id 			int                                            y
+    照片类型                 typeId              int                                            y
+    上传时间 				uploadTime 			datetime
+    地点 					place 				varchar					200
+    相关人物 				person 				varchar					200
+    图片地址                 photoUrl            varchar                 500                    y
+    备注说明 				mark 				varchar					2000
+
+
+图片类型 photoType
+    字段中文名				字段名 				字段类型 				字段长度            是否必须
+    ID 						id 					int increment                                  y
+    类型名称                 typeName            varchar                 300                    y
 
 
 mapper 文件统一格式

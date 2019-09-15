@@ -26,7 +26,7 @@ logging:
 
 
 redis:
-  host: 127.0.0.1
+  host: 47.102.97.91
   port: 6379
   timeout: 10
   poolMaxTotal: 1000
