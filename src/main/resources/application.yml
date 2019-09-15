@@ -11,6 +11,7 @@ spring:
     password: "076173"
 
 
+
 mybatis:
   type-aliases-package: com.yuk.trump.entity
   mapper-locations: classpath:mapper/*.xml
@@ -22,3 +23,12 @@ logging:
   pattern:
     console: "%d{yyyy/MM/dd-HH:mm:ss} [%thread] %-5level %logger- %msg%n"
     file: "%d{yyyy/MM/dd-HH:mm} [%thread] %-5level %logger- %msg%n"
+
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  timeout: 10
+  poolMaxTotal: 1000
+  poolMaxIdle: 500
+  poolMaxWait: 500

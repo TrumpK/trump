@@ -2,6 +2,7 @@ package com.yuk.trump.controller;
 
 import com.yuk.trump.entity.Admin;
 import com.yuk.trump.entity.Role;
+import com.yuk.trump.filter.Secured;
 import com.yuk.trump.service.AdminService;
 import com.yuk.trump.service.RoleService;
 import com.yuk.trump.util.AjaxResult;
@@ -49,6 +50,7 @@ public class DispatherController {
      * @param admin
      * @return
      */
+    @Secured
     @PostMapping("/login")
     @ResponseBody
     public AjaxResult doLogin(Admin admin, HttpSession session){
@@ -64,7 +66,7 @@ public class DispatherController {
         try {
             Admin ad = adminService.login(admin.getUsername(),admin.getPassword());
             if(StringUtils.isEmpty(ad)){
-                ajaxResult.ajaxFalse("用户名或密码错误");
+                ajaxResult.ajaxFalse("登入失败!");
             }else{
                 session.setAttribute(Const.ADMIN,ad);
                 ajaxResult.ajaxTrue("登录成功");
@@ -87,8 +89,13 @@ public class DispatherController {
      * @param session
      * @return
      */
+
     @GetMapping("/logout")
     public String logout(HttpSession session){
+        Admin admin = (Admin) session.getAttribute(Const.ADMIN);
+        if (adminService.logout(admin.getId())){
+            return null;
+        }
         session.invalidate();
         return "manager/login";
     }
