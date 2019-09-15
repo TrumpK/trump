@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>消费记录</title>
+		<link rel="stylesheet" th:href="@{/layuiadmin/layui/css/layui.css}" media="all">
+		<link rel="stylesheet" th:href="@{/layuiadmin/style/admin.css}" media="all">
+		<link rel="stylesheet" th:href="@{/font-awesome-4.7.0/css/font-awesome.min.css}">
+	</head>
+	<body>
+		<div class="layui-fluid">
+			<div class="layui-card">
+				<!-- 搜索 区域  选择时间范围-->
+				<div class="layui-form layui-card-header layuiadmin-card-header-auto" style="line-height: 35px">
+					<div class="layui-form-item">
+						<div class="layui-inline" style="width: 290px">
+							<button class="layui-btn layuiadmin-btn-admin" data-type="add">添加</button>
+						</div>
+						<div class="layui-inline" style="float: right">
+							<button class="layui-btn layuiadmin-btn-admin" data-type="search_table">
+								<i class="layui-icon layui-icon-search layuiadmin-button-btn"></i>
+							</button>
+						</div>
+						<div class="layui-inline" style="width: 290px;float: right">
+							<label class="layui-form-label">时间范围</label>
+							<div class="layui-input-block">
+								<input type="text" name="logTime" lay-verify="required" placeholder="时间" autocomplete="off" class="layui-input"
+								 id="logTime">
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+				<div class="layui-card-body">
+
+					<!-- 消费记录列表 -->
+					<table id="table" lay-filter="table"></table>
+
+
+				</div>
+			</div>
+		</div>
+
+		<script th:src="@{/layuiadmin/layui/layui.js}"></script>
+
+		<script type="text/html" id="table_admin">
+			<a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del"><i class="fa fa-trash-o"></i>删除</a>
+    	</script>
+
+		<script>
+			layui.use(['jquery', 'layer', 'table','laydate'], function() {
+                var table = layui.table;
+                var layer = layui.layer;
+                var $ = layui.jquery;
+                var laydate = layui.laydate;
+
+                laydate.render({
+                    elem: '#logTime',
+                    range: true
+                });
+
+				//执行一个 table 实例
+				table.render({
+					elem: '#table',
+					height: 450,
+					url: '/trump/consumeList', //数据接口
+					title: '消费记录列表',
+					page: true,
+					limit: 20,
+					limits: [5, 10, 15, 20],
+					cols: [
+						[ //表头
+							// {
+							// 	type: 'checkbox',
+							// 	fixed: 'left'
+							// },
+                            {type: 'numbers'},
+							{
+								field: 'useTime',
+								title: '时间',
+								width: 200
+							},
+							{
+								field: 'money',
+								title: '金额',
+								width: 130
+							},
+							{
+								field: 'payWay',
+								title: '支付方式',
+								width: 150
+							},
+							{
+								field: 'place',
+								title: '地点',
+								width: 180
+							},
+							{
+								field: 'person',
+								title: '相关人物',
+								width: 130
+							},
+							{
+								field: 'mark',
+								title: '备注说明',
+								width: 130,
+
+							},
+							{
+								fixed: 'right',
+								title: '操作',
+								width: 150,
+								align: 'center',
+								toolbar: '#table_admin'
+							}
+						]
+					],
+					//用于搜索结果重载
+					id: 'sreload'
+				});
+				// 操作方法
+				var active = {
+					// 搜索  传时间参数
+					search_table: function() {
+						// 时间参数
+						var logTime = $('#logTime');
+						//执行重载
+						table.reload('sreload', {
+							//一定要加不然乱码
+							method: 'post',
+							page: {
+								curr: 1 //重新从第 1 页开始
+							},
+							where: {
+								//表示传到后台的参数
+								logTime: logTime.val()
+							}
+						});
+					},
+					add: function() {
+						layer.open({
+							type: 2,
+							title: '添加消费记录',
+							skin: 'layui-layer-demo', //加上边框
+							area: ['500px', '450px'], //宽高
+							content: '/trump/addconsume' //加载弹出框
+						});
+					},
+					batchdel: function() {
+						var checkAll = table.checkStatus('sreload');
+						if (checkAll.data.length == 0) {
+							layer.msg('请选择数据进行删除');
+						} else {
+							layer.confirm('真的删除行么', function() {
+								var jsonObj = {};
+								for (var i = 0; i < checkAll.data.length; i++) {
+									jsonObj["ids[" + i + "]"] = checkAll.data[i].id;
+								}
+								$.ajax({
+									url: '/trump/delAdmin',
+									data: jsonObj,
+									dataType: 'json',
+									type: 'post',
+									success: function(data) {
+										if (data.success) {
+											window.location.reload();
+										} else {
+											layer.msg(data.message);
+										}
+									}
+								})
+							});
+						}
+
+
+					}
+				};
+				// 点击之后执行操作
+				$('.layui-btn.layuiadmin-btn-admin').on('click', function() {
+					var type = $(this).data('type');
+					// 执行active方法
+					active[type] ? active[type].call(this) : '';
+				});
+
+				table.on('tool(table)', function(obj) { //注：tool 是工具条事件名，table 是 table 原始容器的属性 lay-filter="对应的值"
+					var data = obj.data; //获得当前行数据
+					var layEvent = obj.event; //获得 lay-event 对应的值
+					if (layEvent === 'edit') {
+						edit(data);
+					} else if (layEvent === 'del') {
+						layer.confirm('真的删除行么', function(index) {
+							del(data, obj, index);
+						});
+					}
+				});
+
+				function edit(data) {
+					layer.open({
+						type: 2,
+						title: '修改用户信息',
+						skin: 'layui-layer-demo', //加上边框
+						area: ['500px', '450px'], //宽高
+						method: 'post',
+						content: '/trump/addAdmin?type=edit&id=' + data.id
+					});
+				}
+				//后边两个参数仅仅是因为要执行动态删除dom
+				function del(data, obj, index) {
+					var jsonObj = {};
+					jsonObj["ids[0]"] = data.id;
+					$.ajax({
+						url: '/trump/delAdmin',
+						data: jsonObj,
+						dataType: 'json',
+						type: 'post',
+						success: function(data) {
+							if (data.success) {
+								obj.del(); //删除对应行（tr）的DOM结构
+								layer.close(index);
+							} else {
+								layer.msg(data.message);
+							}
+						}
+					})
+				}
+
+			});
+		</script>
+	</body>
+</html>
