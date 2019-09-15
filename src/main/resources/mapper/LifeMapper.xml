@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.yuk.trump.mapper.LifeMapper">
+    <resultMap id="BaseResultMap" type="com.yuk.trump.entity.Consume">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="admin_id" jdbcType="INTEGER" property="admin_id"/>
+        <result column="use_time" jdbcType="VARCHAR" property="useTime"/>
+        <result column="money" jdbcType="DOUBLE" property="money"/>
+        <result column="pay_way" jdbcType="TINYINT" property="payWay"/>
+        <result column="place" jdbcType="INTEGER" property="place"/>
+        <result column="person" jdbcType="INTEGER" property="person"/>
+        <result column="mark" jdbcType="VARCHAR" property="mark"/>
+    </resultMap>
 
+    <sql id="Base_Column_List">
+        id,admin_id,use_time,money,pay_way,place,person,mark
+    </sql>
+
+    <select id="queryConsumeList" resultMap="BaseResultMap">
+        <!-- 根据条件查询 所有信息 -->
+        select * from consume limit #{startIndex},#{pagesize}
+    </select>
+
+    <select id="queryConsumeCount" resultType="int">
+        select count(*) from consume
+    </select>
+
+    <insert id="insertConsume" parameterType="Consume">
+        insert into consume(admin_id,use_time,money,pay_way,place,person,mark)
+        values (#{admin_id},#{useTime},#{money},#{payWay},#{place},#{person},#{mark})
+    </insert>
+
+    <update id="editByConsume" parameterType="Consume">
+        update consume
+        set admin_id = #{admin_id},use_time = #{useTime},money = #{money},pay_way = #{payWay},place = #{place},
+        person = #{person},mark = #{mark}
+        where id = #{id}
+    </update>
+
+    <delete id="delByConsumeIds" parameterType="java.util.List">
+        delete from consume where id in
+        <foreach collection="list" item="id" separator="," open="(" close=")">
+            #{id}
+        </foreach>
+    </delete>
+
+    <select id="selectByConsumeId" parameterType="long" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from consume where id = #{id}
+    </select>
 </mapper>
