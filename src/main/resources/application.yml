@@ -28,6 +28,7 @@ logging:
 redis:
   host: 47.102.97.91
   port: 6379
+  password: "076173"
   timeout: 10
   poolMaxTotal: 1000
   poolMaxIdle: 500
