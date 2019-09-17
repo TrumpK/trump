@@ -25,3 +25,269 @@
 2019/09/17-18:31 [main] INFO  com.yuk.trump.config.LogConfig- �����ɹ���http://192.168.199.232:-1/
 2019/09/17-18:31 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ��C:\Users\Yukai
 2019/09/17-18:31 [Thread-2] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Shutting down ExecutorService 'applicationTaskExecutor'
+2019/09/17-18:38 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-U20N43D with PID 7832 (C:\Users\Yukai\Desktop\study\yuk\git\trump\target\classes started by Yukai in C:\Users\Yukai\Desktop\study\yuk\git\trump)
+2019/09/17-18:38 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/17-18:38 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/09/17-18:38 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/09/17-18:38 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 71ms. Found 0 repository interfaces.
+2019/09/17-18:38 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$38fd565a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/09/17-18:38 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
+2019/09/17-18:38 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/17-18:38 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/17-18:38 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/17-18:38 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 4297 ms
+2019/09/17-18:38 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/17-18:38 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
+2019/09/17-18:38 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 8.862 seconds (JVM running for 11.899)
+2019/09/17-18:38 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.199.232:8081/
+2019/09/17-18:38 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\Yukai
+2019/09/17-18:39 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-U20N43D with PID 3868 (C:\Users\Yukai\Desktop\study\yuk\git\trump\target\classes started by Yukai in C:\Users\Yukai\Desktop\study\yuk\git\trump)
+2019/09/17-18:39 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/17-18:39 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/09/17-18:39 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/09/17-18:39 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 49ms. Found 0 repository interfaces.
+2019/09/17-18:39 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9cf81214] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/09/17-18:39 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
+2019/09/17-18:39 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/17-18:39 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/17-18:39 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/17-18:39 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 2380 ms
+2019/09/17-18:39 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/17-18:39 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
+2019/09/17-18:39 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 5.404 seconds (JVM running for 7.126)
+2019/09/17-18:39 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.199.232:8081/
+2019/09/17-18:39 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\Yukai
+2019/09/17-18:41 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-U20N43D with PID 2312 (C:\Users\Yukai\Desktop\study\yuk\git\trump\target\classes started by Yukai in C:\Users\Yukai\Desktop\study\yuk\git\trump)
+2019/09/17-18:41 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/17-18:41 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/09/17-18:41 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/09/17-18:41 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+2019/09/17-18:41 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b4dbe369] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/09/17-18:41 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
+2019/09/17-18:41 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/17-18:41 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/17-18:41 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/17-18:41 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 2854 ms
+2019/09/17-18:41 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/17-18:41 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
+2019/09/17-18:41 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 6.138 seconds (JVM running for 8.226)
+2019/09/17-18:41 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.199.232:8081/
+2019/09/17-18:41 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\Yukai
+2019/09/17-18:43 [http-nio-8081-exec-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/09/17-18:43 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/09/17-18:43 [http-nio-8081-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 16 ms
+2019/09/17-18:43 [http-nio-8081-exec-3] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+2019/09/17-18:43 [http-nio-8081-exec-3] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+2019/09/17-18:43 [http-nio-8081-exec-3] DEBUG com.yuk.trump.mapper.AdminMapper.login- ==>  Preparing: select id,username,password,phone,email,rid,status,createtime from admin where username = ? AND password=? 
+2019/09/17-18:43 [http-nio-8081-exec-3] DEBUG com.yuk.trump.mapper.AdminMapper.login- ==> Parameters: yuk(String), 123456(String)
+2019/09/17-18:43 [http-nio-8081-exec-3] DEBUG com.yuk.trump.mapper.AdminMapper.login- <==      Total: 1
+2019/09/17-18:43 [http-nio-8081-exec-3] DEBUG com.yuk.trump.mapper.RoleMapper.selectAll- ==>  Preparing: select id,name from role; 
+2019/09/17-18:43 [http-nio-8081-exec-3] DEBUG com.yuk.trump.mapper.RoleMapper.selectAll- ==> Parameters: 
+2019/09/17-18:43 [http-nio-8081-exec-3] DEBUG com.yuk.trump.mapper.RoleMapper.selectAll- <==      Total: 3
+2019/09/17-18:43 [http-nio-8081-exec-6] DEBUG com.yuk.trump.mapper.TreeMenuMapper.selectByAdminId- ==>  Preparing: select treemenu.id,treemenu.pid,treemenu.name,treemenu.icon,treemenu.url from admin,role,role_treemenu,treemenu where admin.rid = role.id and role.id = role_treemenu.rid and treemenu.id = role_treemenu.tid and admin.id = ? 
+2019/09/17-18:43 [http-nio-8081-exec-6] DEBUG com.yuk.trump.mapper.TreeMenuMapper.selectByAdminId- ==> Parameters: 30(Integer)
+2019/09/17-18:43 [http-nio-8081-exec-6] DEBUG com.yuk.trump.mapper.TreeMenuMapper.selectByAdminId- <==      Total: 14
+2019/09/17-18:43 [http-nio-8081-exec-1] DEBUG com.yuk.trump.mapper.AdminMapper.queryList- ==>  Preparing: select admin.*,role.name as roleName from admin,role WHERE admin.rid = role.id limit ?,? 
+2019/09/17-18:43 [http-nio-8081-exec-1] DEBUG com.yuk.trump.mapper.AdminMapper.queryList- ==> Parameters: 0(Integer), 5(Integer)
+2019/09/17-18:43 [http-nio-8081-exec-1] DEBUG com.yuk.trump.mapper.AdminMapper.queryList- <==      Total: 5
+2019/09/17-18:43 [http-nio-8081-exec-1] DEBUG com.yuk.trump.mapper.AdminMapper.queryCount- ==>  Preparing: select count(*) from admin,role WHERE admin.rid = role.id 
+2019/09/17-18:43 [http-nio-8081-exec-1] DEBUG com.yuk.trump.mapper.AdminMapper.queryCount- ==> Parameters: 
+2019/09/17-18:43 [http-nio-8081-exec-1] DEBUG com.yuk.trump.mapper.AdminMapper.queryCount- <==      Total: 1
+2019/09/17-18:44 [http-nio-8081-exec-4] DEBUG com.yuk.trump.mapper.AdminMapper.login- ==>  Preparing: select id,username,password,phone,email,rid,status,createtime from admin where username = ? AND password=? 
+2019/09/17-18:44 [http-nio-8081-exec-4] DEBUG com.yuk.trump.mapper.AdminMapper.login- ==> Parameters: yuk(String), 123456(String)
+2019/09/17-18:44 [http-nio-8081-exec-4] DEBUG com.yuk.trump.mapper.AdminMapper.login- <==      Total: 1
+2019/09/17-18:44 [http-nio-8081-exec-4] DEBUG com.yuk.trump.mapper.RoleMapper.selectAll- ==>  Preparing: select id,name from role; 
+2019/09/17-18:44 [http-nio-8081-exec-4] DEBUG com.yuk.trump.mapper.RoleMapper.selectAll- ==> Parameters: 
+2019/09/17-18:44 [http-nio-8081-exec-4] DEBUG com.yuk.trump.mapper.RoleMapper.selectAll- <==      Total: 3
+2019/09/17-18:44 [http-nio-8081-exec-9] DEBUG com.yuk.trump.mapper.TreeMenuMapper.selectByAdminId- ==>  Preparing: select treemenu.id,treemenu.pid,treemenu.name,treemenu.icon,treemenu.url from admin,role,role_treemenu,treemenu where admin.rid = role.id and role.id = role_treemenu.rid and treemenu.id = role_treemenu.tid and admin.id = ? 
+2019/09/17-18:44 [http-nio-8081-exec-9] DEBUG com.yuk.trump.mapper.TreeMenuMapper.selectByAdminId- ==> Parameters: 30(Integer)
+2019/09/17-18:44 [http-nio-8081-exec-9] DEBUG com.yuk.trump.mapper.TreeMenuMapper.selectByAdminId- <==      Total: 14
+2019/09/17-18:44 [http-nio-8081-exec-10] ERROR org.thymeleaf.TemplateEngine- [THYMELEAF][http-nio-8081-exec-10] Exception processing template "manager/consume/consumeList": Error resolving template [manager/consume/consumeList], template might not exist or might not be accessible by any of the configured Template Resolvers
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [manager/consume/consumeList], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019/09/17-18:44 [http-nio-8081-exec-10] ERROR org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template [manager/consume/consumeList], template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template [manager/consume/consumeList], template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.engine.TemplateManager.resolveTemplate(TemplateManager.java:869)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:607)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1371)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1117)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1056)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:118)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2019/09/17-18:45 [http-nio-8081-exec-4] DEBUG com.yuk.trump.mapper.AdminMapper.queryList- ==>  Preparing: select admin.*,role.name as roleName from admin,role WHERE admin.rid = role.id limit ?,? 
+2019/09/17-18:45 [http-nio-8081-exec-4] DEBUG com.yuk.trump.mapper.AdminMapper.queryList- ==> Parameters: 0(Integer), 5(Integer)
+2019/09/17-18:45 [http-nio-8081-exec-4] DEBUG com.yuk.trump.mapper.AdminMapper.queryList- <==      Total: 5
+2019/09/17-18:45 [http-nio-8081-exec-4] DEBUG com.yuk.trump.mapper.AdminMapper.queryCount- ==>  Preparing: select count(*) from admin,role WHERE admin.rid = role.id 
+2019/09/17-18:45 [http-nio-8081-exec-4] DEBUG com.yuk.trump.mapper.AdminMapper.queryCount- ==> Parameters: 
+2019/09/17-18:45 [http-nio-8081-exec-4] DEBUG com.yuk.trump.mapper.AdminMapper.queryCount- <==      Total: 1
+2019/09/17-18:45 [http-nio-8081-exec-7] DEBUG com.yuk.trump.mapper.RoleMapper.queryList- ==>  Preparing: select id,name from role limit ?,? 
+2019/09/17-18:45 [http-nio-8081-exec-7] DEBUG com.yuk.trump.mapper.RoleMapper.queryList- ==> Parameters: 0(Integer), 5(Integer)
+2019/09/17-18:45 [http-nio-8081-exec-7] DEBUG com.yuk.trump.mapper.RoleMapper.queryList- <==      Total: 3
+2019/09/17-18:45 [http-nio-8081-exec-7] DEBUG com.yuk.trump.mapper.RoleMapper.queryCount- ==>  Preparing: select count(*) from role 
+2019/09/17-18:45 [http-nio-8081-exec-7] DEBUG com.yuk.trump.mapper.RoleMapper.queryCount- ==> Parameters: 
+2019/09/17-18:45 [http-nio-8081-exec-7] DEBUG com.yuk.trump.mapper.RoleMapper.queryCount- <==      Total: 1
+2019/09/17-18:45 [http-nio-8081-exec-8] DEBUG com.yuk.trump.mapper.AdminMapper.selectById- ==>  Preparing: select id,username,password,phone,email,rid,status,createtime from admin where id = ? 
+2019/09/17-18:45 [http-nio-8081-exec-8] DEBUG com.yuk.trump.mapper.AdminMapper.selectById- ==> Parameters: 30(Integer)
+2019/09/17-18:45 [http-nio-8081-exec-8] DEBUG com.yuk.trump.mapper.AdminMapper.selectById- <==      Total: 1
+2019/09/17-18:45 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.AdminMapper.selectByName- ==>  Preparing: select id,username,password,phone,email,rid,status,createtime from admin where username = ? 
+2019/09/17-18:45 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.AdminMapper.selectByName- ==> Parameters: yuk(String)
+2019/09/17-18:45 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.AdminMapper.selectByName- <==      Total: 1
+2019/09/17-18:45 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.AdminMapper.selectByEmail- ==>  Preparing: select id,username,password,phone,email,rid,status,createtime from admin where email = ? 
+2019/09/17-18:45 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.AdminMapper.selectByEmail- ==> Parameters: 975076173@qq.com(String)
+2019/09/17-18:45 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.AdminMapper.selectByEmail- <==      Total: 1
+2019/09/17-18:45 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.AdminMapper.editByAdmin- ==>  Preparing: update admin set username = ?,email = ?,phone = ?,rid = ?,status = ? ,password = ? where id = ? 
+2019/09/17-18:45 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.AdminMapper.editByAdmin- ==> Parameters: yuk(String), 975076173@qq.com(String), 15350265567(String), 1(Integer), 1(Integer), 123(String), 30(Integer)
+2019/09/17-18:45 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.AdminMapper.editByAdmin- <==    Updates: 1
+2019/09/17-18:45 [http-nio-8081-exec-3] DEBUG com.yuk.trump.mapper.AdminMapper.queryList- ==>  Preparing: select admin.*,role.name as roleName from admin,role WHERE admin.rid = role.id limit ?,? 
+2019/09/17-18:45 [http-nio-8081-exec-3] DEBUG com.yuk.trump.mapper.AdminMapper.queryList- ==> Parameters: 0(Integer), 5(Integer)
+2019/09/17-18:45 [http-nio-8081-exec-3] DEBUG com.yuk.trump.mapper.AdminMapper.queryList- <==      Total: 5
+2019/09/17-18:45 [http-nio-8081-exec-3] DEBUG com.yuk.trump.mapper.AdminMapper.queryCount- ==>  Preparing: select count(*) from admin,role WHERE admin.rid = role.id 
+2019/09/17-18:45 [http-nio-8081-exec-3] DEBUG com.yuk.trump.mapper.AdminMapper.queryCount- ==> Parameters: 
+2019/09/17-18:45 [http-nio-8081-exec-3] DEBUG com.yuk.trump.mapper.AdminMapper.queryCount- <==      Total: 1
+2019/09/17-18:50 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-U20N43D with PID 14868 (C:\Users\Yukai\Desktop\study\yuk\git\trump\target\classes started by Yukai in C:\Users\Yukai\Desktop\study\yuk\git\trump)
+2019/09/17-18:50 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/17-18:50 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/09/17-18:50 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/09/17-18:50 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 40ms. Found 0 repository interfaces.
+2019/09/17-18:50 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$11144c8a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/09/17-18:50 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
+2019/09/17-18:50 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/17-18:50 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/17-18:50 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/17-18:50 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3701 ms
+2019/09/17-18:50 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/17-18:50 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
+2019/09/17-18:50 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 8.628 seconds (JVM running for 11.872)
+2019/09/17-18:50 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.199.232:8081/
+2019/09/17-18:50 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\Yukai
+2019/09/17-18:50 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/09/17-18:50 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/09/17-18:50 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 15 ms
+2019/09/17-18:50 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+2019/09/17-18:50 [http-nio-8081-exec-2] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+2019/09/17-18:50 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.AdminMapper.login- ==>  Preparing: select id,username,password,phone,email,rid,status,createtime from admin where username = ? AND password=? 
+2019/09/17-18:50 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.AdminMapper.login- ==> Parameters: yuk(String), 123(String)
+2019/09/17-18:50 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.AdminMapper.login- <==      Total: 1
+2019/09/17-18:50 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.RoleMapper.selectAll- ==>  Preparing: select id,name from role; 
+2019/09/17-18:50 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.RoleMapper.selectAll- ==> Parameters: 
+2019/09/17-18:50 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.RoleMapper.selectAll- <==      Total: 3
+2019/09/17-18:50 [http-nio-8081-exec-5] DEBUG com.yuk.trump.mapper.TreeMenuMapper.selectByAdminId- ==>  Preparing: select treemenu.id,treemenu.pid,treemenu.name,treemenu.icon,treemenu.url from admin,role,role_treemenu,treemenu where admin.rid = role.id and role.id = role_treemenu.rid and treemenu.id = role_treemenu.tid and admin.id = ? 
+2019/09/17-18:50 [http-nio-8081-exec-5] DEBUG com.yuk.trump.mapper.TreeMenuMapper.selectByAdminId- ==> Parameters: 30(Integer)
+2019/09/17-18:50 [http-nio-8081-exec-5] DEBUG com.yuk.trump.mapper.TreeMenuMapper.selectByAdminId- <==      Total: 14
+2019/09/17-18:50 [http-nio-8081-exec-1] DEBUG com.yuk.trump.mapper.LifeMapper.queryConsumeList- ==>  Preparing: select * from consume limit ?,? 
+2019/09/17-18:50 [http-nio-8081-exec-1] DEBUG com.yuk.trump.mapper.LifeMapper.queryConsumeList- ==> Parameters: 0(Integer), 20(Integer)
+2019/09/17-18:50 [http-nio-8081-exec-1] DEBUG com.yuk.trump.mapper.LifeMapper.queryConsumeList- <==      Total: 0
+2019/09/17-18:50 [http-nio-8081-exec-1] DEBUG com.yuk.trump.mapper.LifeMapper.queryConsumeCount- ==>  Preparing: select count(*) from consume 
+2019/09/17-18:50 [http-nio-8081-exec-1] DEBUG com.yuk.trump.mapper.LifeMapper.queryConsumeCount- ==> Parameters: 
+2019/09/17-18:50 [http-nio-8081-exec-1] DEBUG com.yuk.trump.mapper.LifeMapper.queryConsumeCount- <==      Total: 1
+2019/09/17-18:56 [http-nio-8081-exec-4] DEBUG com.yuk.trump.mapper.LogMapper.queryList- ==>  Preparing: select * from log limit ?,? 
+2019/09/17-18:56 [http-nio-8081-exec-4] DEBUG com.yuk.trump.mapper.LogMapper.queryList- ==> Parameters: 0(Integer), 20(Integer)
+2019/09/17-18:56 [http-nio-8081-exec-4] DEBUG com.yuk.trump.mapper.LogMapper.queryList- <==      Total: 20
+2019/09/17-18:56 [http-nio-8081-exec-4] DEBUG com.yuk.trump.mapper.LogMapper.queryCount- ==>  Preparing: select count(*) from log 
+2019/09/17-18:56 [http-nio-8081-exec-4] DEBUG com.yuk.trump.mapper.LogMapper.queryCount- ==> Parameters: 
+2019/09/17-18:56 [http-nio-8081-exec-4] DEBUG com.yuk.trump.mapper.LogMapper.queryCount- <==      Total: 1
+2019/09/17-18:56 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.LifeMapper.queryConsumeList- ==>  Preparing: select * from consume limit ?,? 
+2019/09/17-18:56 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.LifeMapper.queryConsumeList- ==> Parameters: 0(Integer), 20(Integer)
+2019/09/17-18:56 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.LifeMapper.queryConsumeList- <==      Total: 1
+2019/09/17-18:56 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.LifeMapper.queryConsumeCount- ==>  Preparing: select count(*) from consume 
+2019/09/17-18:56 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.LifeMapper.queryConsumeCount- ==> Parameters: 
+2019/09/17-18:56 [http-nio-8081-exec-2] DEBUG com.yuk.trump.mapper.LifeMapper.queryConsumeCount- <==      Total: 1
+2019/09/17-18:56 [http-nio-8081-exec-5] DEBUG com.yuk.trump.mapper.AdminMapper.delByAdminIds- ==>  Preparing: delete from admin where id in ( ? ) 
+2019/09/17-18:56 [http-nio-8081-exec-5] DEBUG com.yuk.trump.mapper.AdminMapper.delByAdminIds- ==> Parameters: 1(Integer)
+2019/09/17-18:56 [http-nio-8081-exec-5] DEBUG com.yuk.trump.mapper.AdminMapper.delByAdminIds- <==    Updates: 0
