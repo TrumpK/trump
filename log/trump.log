@@ -343,3 +343,189 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [manag
 2019/09/17-19:39 [http-nio-8081-exec-10] DEBUG com.yuk.trump.mapper.LifeMapper.queryConsumeCount- ==>  Preparing: select count(*) from consume 
 2019/09/17-19:39 [http-nio-8081-exec-10] DEBUG com.yuk.trump.mapper.LifeMapper.queryConsumeCount- ==> Parameters: 
 2019/09/17-19:39 [http-nio-8081-exec-10] DEBUG com.yuk.trump.mapper.LifeMapper.queryConsumeCount- <==      Total: 1
+2019/09/17-21:09 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-U20N43D with PID 3484 (C:\Users\Yukai\Desktop\study\yuk\git\trump\target\classes started by Yukai in C:\Users\Yukai\Desktop\study\yuk\git\trump)
+2019/09/17-21:09 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/17-21:09 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/09/17-21:09 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/09/17-21:09 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019/09/17-21:09 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$731dd509] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/09/17-21:09 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
+2019/09/17-21:09 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/17-21:09 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/17-21:09 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/17-21:09 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 2668 ms
+2019/09/17-21:09 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/17-21:09 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
+2019/09/17-21:09 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 5.541 seconds (JVM running for 7.415)
+2019/09/17-21:09 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.199.232:8081/
+2019/09/17-21:09 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\Yukai
+2019/09/17-21:10 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/09/17-21:10 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/09/17-21:10 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 12 ms
+2019/09/17-21:33 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-U20N43D with PID 10344 (C:\Users\Yukai\Desktop\study\yuk\git\trump\target\classes started by Yukai in C:\Users\Yukai\Desktop\study\yuk\git\trump)
+2019/09/17-21:33 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/17-21:33 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/09/17-21:33 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/09/17-21:33 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 87ms. Found 0 repository interfaces.
+2019/09/17-21:33 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ee40d292] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/09/17-21:33 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 443 (https)
+2019/09/17-21:33 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/17-21:33 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/17-21:33 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/17-21:33 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3324 ms
+2019/09/17-21:33 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/17-21:33 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 443 (https) with context path ''
+2019/09/17-21:33 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 9.108 seconds (JVM running for 11.458)
+2019/09/17-21:33 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.199.232:443/
+2019/09/17-21:33 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\Yukai
+2019/09/17-21:35 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-U20N43D with PID 14888 (C:\Users\Yukai\Desktop\study\yuk\git\trump\target\classes started by Yukai in C:\Users\Yukai\Desktop\study\yuk\git\trump)
+2019/09/17-21:35 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/17-21:35 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/09/17-21:35 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/09/17-21:35 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 68ms. Found 0 repository interfaces.
+2019/09/17-21:35 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$35cd514] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/09/17-21:35 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 443 (https) 80 (http)
+2019/09/17-21:35 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/17-21:35 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/17-21:35 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/17-21:35 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3284 ms
+2019/09/17-21:35 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/17-21:35 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 443 (https) 80 (http) with context path ''
+2019/09/17-21:35 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 7.127 seconds (JVM running for 9.11)
+2019/09/17-21:35 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.199.232:443/
+2019/09/17-21:35 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\Yukai
+2019/09/17-21:37 [https-jsse-nio-443-exec-5] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/09/17-21:37 [https-jsse-nio-443-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/09/17-21:37 [https-jsse-nio-443-exec-5] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 17 ms
+2019/09/17-21:46 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-U20N43D with PID 2284 (C:\Users\Yukai\Desktop\study\yuk\git\trump\target\classes started by Yukai in C:\Users\Yukai\Desktop\study\yuk\git\trump)
+2019/09/17-21:46 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/17-21:46 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/09/17-21:46 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/09/17-21:46 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 63ms. Found 0 repository interfaces.
+2019/09/17-21:46 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4e6d7c9e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/09/17-21:46 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 443 (https) 80 (http)
+2019/09/17-21:46 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/17-21:46 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/17-21:46 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/17-21:46 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3075 ms
+2019/09/17-21:46 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/17-21:46 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 443 (https) 80 (http) with context path ''
+2019/09/17-21:46 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 6.319 seconds (JVM running for 8.049)
+2019/09/17-21:46 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.199.232:443/
+2019/09/17-21:46 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\Yukai
+2019/09/17-21:48 [https-jsse-nio-443-exec-7] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/09/17-21:48 [https-jsse-nio-443-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/09/17-21:48 [https-jsse-nio-443-exec-7] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 9 ms
+2019/09/17-21:54 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-U20N43D with PID 1236 (C:\Users\Yukai\Desktop\study\yuk\git\trump\target\classes started by Yukai in C:\Users\Yukai\Desktop\study\yuk\git\trump)
+2019/09/17-21:54 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/17-21:54 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/09/17-21:54 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/09/17-21:54 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 50ms. Found 0 repository interfaces.
+2019/09/17-21:54 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$405a8907] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/09/17-21:54 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'connectorConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'http.port' in value "${http.port}"
+2019/09/17-21:54 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019/09/17-21:54 [main] ERROR org.springframework.boot.SpringApplication- Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'connectorConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'http.port' in value "${http.port}"
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:156)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:744)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:391)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
+	at com.yuk.trump.TrumpApplication.main(TrumpApplication.java:14)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'connectorConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'http.port' in value "${http.port}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$120/1623009085.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:392)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$$Lambda$120/1623009085.getObject(Unknown Source)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:204)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:210)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:179)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:153)
+	... 8 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'http.port' in value "${http.port}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$$Lambda$220/78265654.resolveStringValue(Unknown Source)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	... 29 common frames omitted
+2019/09/17-21:55 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-U20N43D with PID 10460 (C:\Users\Yukai\Desktop\study\yuk\git\trump\target\classes started by Yukai in C:\Users\Yukai\Desktop\study\yuk\git\trump)
+2019/09/17-21:55 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/17-21:55 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/09/17-21:55 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/09/17-21:55 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019/09/17-21:55 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a81da618] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/09/17-21:55 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 443 (https) 80 (http)
+2019/09/17-21:55 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/17-21:55 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/17-21:55 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/17-21:55 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 2700 ms
+2019/09/17-21:55 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/17-21:55 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 443 (https) 80 (http) with context path ''
+2019/09/17-21:55 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 6.678 seconds (JVM running for 8.749)
+2019/09/17-21:55 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.199.232:443/
+2019/09/17-21:55 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\Yukai
+2019/09/17-21:55 [https-jsse-nio-443-exec-8] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/09/17-21:55 [https-jsse-nio-443-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/09/17-21:55 [https-jsse-nio-443-exec-8] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 10 ms
+2019/09/17-22:07 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-U20N43D with PID 10284 (C:\Users\Yukai\Desktop\study\yuk\git\trump\target\classes started by Yukai in C:\Users\Yukai\Desktop\study\yuk\git\trump)
+2019/09/17-22:07 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/17-22:07 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/09/17-22:07 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/09/17-22:07 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 60ms. Found 0 repository interfaces.
+2019/09/17-22:07 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ff4fbdf4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/09/17-22:07 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 443 (https) 80 (http)
+2019/09/17-22:07 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/17-22:07 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/17-22:07 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/17-22:07 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 2847 ms
+2019/09/17-22:07 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/17-22:07 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 443 (https) 80 (http) with context path ''
+2019/09/17-22:07 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 6.551 seconds (JVM running for 8.879)
+2019/09/17-22:07 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.199.232:443/
+2019/09/17-22:07 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\Yukai
+2019/09/17-22:10 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on DESKTOP-U20N43D with PID 13336 (C:\Users\Yukai\Desktop\study\yuk\git\trump\target\classes started by Yukai in C:\Users\Yukai\Desktop\study\yuk\git\trump)
+2019/09/17-22:10 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/17-22:10 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/09/17-22:10 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/09/17-22:10 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 50ms. Found 0 repository interfaces.
+2019/09/17-22:10 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$abd7a297] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/09/17-22:10 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
+2019/09/17-22:10 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/17-22:10 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/17-22:10 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/17-22:10 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 2605 ms
+2019/09/17-22:10 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/17-22:10 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
+2019/09/17-22:10 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 5.234 seconds (JVM running for 6.945)
+2019/09/17-22:10 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.199.232:8081/
+2019/09/17-22:10 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\Yukai
+2019/09/17-22:11 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/09/17-22:11 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/09/17-22:11 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 14 ms
