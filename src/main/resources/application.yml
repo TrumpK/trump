@@ -30,7 +30,6 @@ redis:
   port: 6379
   password: "076173"
   timeout: 10
-  password: "076173"
   poolMaxTotal: 1000
   poolMaxIdle: 500
   poolMaxWait: 500
