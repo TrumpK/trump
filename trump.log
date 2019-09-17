@@ -540,3 +540,53 @@ java.lang.NullPointerException: null
 2019/09/15-18:19 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 9.982 seconds (JVM running for 13.975)
 2019/09/15-18:19 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.199.232:8081/
 2019/09/15-18:19 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\Yukai
+2019/09/15-22:15 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on LHZO2Y0FDPE0CQH with PID 8572 (D:\ykxm\trump\target\classes started by Administrator in D:\ykxm\trump)
+2019/09/15-22:15 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/15-22:15 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/09/15-22:15 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/09/15-22:15 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 50ms. Found 0 repository interfaces.
+2019/09/15-22:15 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$918df21e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/09/15-22:15 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
+2019/09/15-22:15 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/15-22:15 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/15-22:15 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/15-22:15 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 4680 ms
+2019/09/15-22:15 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/15-22:15 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
+2019/09/15-22:15 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 10.091 seconds (JVM running for 15.83)
+2019/09/15-22:15 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.0.105:8081/
+2019/09/15-22:15 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\Administrator
+2019/09/15-22:15 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/09/15-22:15 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/09/15-22:15 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 22 ms
+2019/09/15-22:18 [main] INFO  com.yuk.trump.TrumpApplication- Starting TrumpApplication on LHZO2Y0FDPE0CQH with PID 844 (D:\ykxm\trump\target\classes started by Administrator in D:\ykxm\trump)
+2019/09/15-22:18 [main] INFO  com.yuk.trump.TrumpApplication- No active profile set, falling back to default profiles: default
+2019/09/15-22:18 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Multiple Spring Data modules found, entering strict repository configuration mode!
+2019/09/15-22:18 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Bootstrapping Spring Data repositories in DEFAULT mode.
+2019/09/15-22:18 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate- Finished Spring Data repository scanning in 69ms. Found 0 repository interfaces.
+2019/09/15-22:18 [main] INFO  org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bef5162b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019/09/15-22:18 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat initialized with port(s): 8081 (http)
+2019/09/15-22:18 [main] INFO  org.apache.catalina.core.StandardService- Starting service [Tomcat]
+2019/09/15-22:18 [main] INFO  org.apache.catalina.core.StandardEngine- Starting Servlet engine: [Apache Tomcat/9.0.24]
+2019/09/15-22:18 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring embedded WebApplicationContext
+2019/09/15-22:18 [main] INFO  org.springframework.web.context.ContextLoader- Root WebApplicationContext: initialization completed in 3069 ms
+2019/09/15-22:18 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor- Initializing ExecutorService 'applicationTaskExecutor'
+2019/09/15-22:18 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer- Tomcat started on port(s): 8081 (http) with context path ''
+2019/09/15-22:18 [main] INFO  com.yuk.trump.TrumpApplication- Started TrumpApplication in 6.019 seconds (JVM running for 10.096)
+2019/09/15-22:18 [main] INFO  com.yuk.trump.config.LogConfig- 启动成功：http://192.168.0.105:8081/
+2019/09/15-22:18 [main] INFO  com.yuk.trump.config.LogConfig- ${user.home} ：C:\Users\Administrator
+2019/09/15-22:18 [http-nio-8081-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019/09/15-22:18 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Initializing Servlet 'dispatcherServlet'
+2019/09/15-22:18 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet- Completed initialization in 28 ms
+2019/09/15-22:19 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Starting...
+2019/09/15-22:19 [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource- HikariPool-1 - Start completed.
+2019/09/15-22:32 [http-nio-8081-exec-1] WARN  com.zaxxer.hikari.pool.PoolBase- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4fdc4768 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019/09/15-22:32 [http-nio-8081-exec-8] WARN  com.zaxxer.hikari.pool.PoolBase- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@109d10c7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019/09/15-22:32 [http-nio-8081-exec-1] WARN  com.zaxxer.hikari.pool.PoolBase- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1d003b8f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019/09/15-22:33 [http-nio-8081-exec-8] WARN  com.zaxxer.hikari.pool.PoolBase- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@71a42148 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019/09/15-22:33 [http-nio-8081-exec-1] WARN  com.zaxxer.hikari.pool.PoolBase- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@30cad840 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019/09/15-22:33 [http-nio-8081-exec-8] WARN  com.zaxxer.hikari.pool.PoolBase- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@686aa409 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019/09/15-22:33 [http-nio-8081-exec-1] WARN  com.zaxxer.hikari.pool.PoolBase- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@46230af7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019/09/15-22:33 [http-nio-8081-exec-8] WARN  com.zaxxer.hikari.pool.PoolBase- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1108dce6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019/09/15-22:33 [http-nio-8081-exec-1] WARN  com.zaxxer.hikari.pool.PoolBase- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5df64bea (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019/09/15-22:33 [http-nio-8081-exec-4] WARN  com.zaxxer.hikari.pool.PoolBase- HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@43a6cea8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
