@@ -21,7 +21,7 @@ import java.util.Map;
  * @modified By：
  */
 @Controller
-@RequestMapping("trump")
+@RequestMapping("/trump")
 public class LifeController {
     @Autowired
     LifeService lifeService;
@@ -33,9 +33,17 @@ public class LifeController {
      *
      * @return
      */
-    @GetMapping("/consum")
-    public String consum() {
-        return "manager/consum/consumList";
+    @GetMapping("/consume")
+    public String consume() {
+        return "manager/life/consumeList";
+    }
+
+    /**
+     *
+     */
+    @GetMapping("/addConsume")
+    public String addConsume(){
+        return "manager/life/addConsume";
     }
 
     /**
@@ -73,7 +81,7 @@ public class LifeController {
      * @Auther: ZhixiangWang on 2019/9/15 19:25
      * @Description: TODO
      */
-    @PostMapping("/addConsumeList")
+    @PostMapping("/addConsume")
     @ResponseBody
     public AjaxResult submitAddConsumeList(Consume consume) {
         if (consume.getId() != null) {

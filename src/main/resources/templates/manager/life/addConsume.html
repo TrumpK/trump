@@ -10,14 +10,15 @@
 			<!-- <input type="hidden" name="id" th:if="${role}" th:value="${role.id}"> -->
 			<div class="layui-form-item">
 				<label class="layui-form-label">用户</label>
-				<div class="layui-input-inline">
+				<div class="layui-input-block">
 					<input type="text" name="name" lay-verify="required" placeholder="请输入用户名" autocomplete="off" class="layui-input">
 				</div>
 			</div>
 			<div class="layui-form-item">
 				<label class="layui-form-label">时间</label>
 				<div class="layui-input-block">
-					<input type="text" name="logTime" lay-verify="required" placeholder="请输入时间" autocomplete="off" class="layui-input">
+					<input type="text" name="logTime" lay-verify="required" placeholder="时间" autocomplete="off" class="layui-input"
+						   id="logTime">
 				</div>
 			</div>
 			<div class="layui-form-item">
@@ -39,8 +40,8 @@
 			</div>
 			<div class="layui-form-item">
 				<label class="layui-form-label">地点</label>
-				<div class="layui-input-block">
-					<input type="text" id="site" name="logTime" lay-verify="required" placeholder="请输入地点" autocomplete="off" class="layui-input">
+				<div class="layui-input-block" style="display: flex;flex-direction: row;justify-content: space-between;">
+					<input type="text" id="site" name="logTime" lay-verify="required" placeholder="请输入地点" autocomplete="off" class="layui-input" style="width: 70%">
 					<button type="reset" id="resetsite" class="layui-btn layui-btn-primary">重置</button>
 				</div>
 			</div>
@@ -66,7 +67,7 @@
 
 		<script th:src="@{/layuiadmin/layui/layui.js}"></script>
 		<script>
-			layui.use(['form', 'jquery'], function() {
+			layui.use(['form', 'jquery','layer', 'laydata'], function() {
 				var form = layui.form;
 				var $ = layui.jquery;
 				var laydate = layui.laydate;
