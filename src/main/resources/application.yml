@@ -27,8 +27,6 @@ logging:
         trump:
           mapper: debug
 
-
-
 redis:
   host: 47.102.97.91
   port: 6379
